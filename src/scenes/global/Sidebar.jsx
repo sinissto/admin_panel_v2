@@ -1,5 +1,11 @@
-const Sidebar = () => {
-    return <div>SIDEBAR</div>
-}
+import { Box } from '@mui/material';
 
-export default Sidebar
+const Sidebar = () => {
+    return (
+        <Box width="300px" borderRight="1px solid gray">
+            SIDEBAR
+        </Box>
+    );
+};
+
+export default Sidebar;
